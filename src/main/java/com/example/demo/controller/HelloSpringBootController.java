@@ -12,7 +12,7 @@ public class HelloSpringBootController {
     /**
      * Returns index page.
      * 
-     * @param model is model class
+     * @param model the Model in the file name 
      */
     @RequestMapping("/")
     public String index(Model model) {
